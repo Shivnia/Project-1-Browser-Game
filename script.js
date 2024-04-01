@@ -1,18 +1,19 @@
+
 const questions = [
     {
-        question: "What is the capital of France?",
-        choices: ["London", "Paris", "Berlin", "Madrid"],
-        answer: "Paris"
+        question: "Who verified the level Sakupen Circles?",
+        choices: ["Cursed", "Doggie", "Diamond", "Denni"],
+        answer: "Diamond"
     },
     {
-        question: "What is the largest planet in our solar system?",
-        choices: ["Earth", "Jupiter", "Saturn", "Mars"],
-        answer: "Jupiter"
+        question: "Who verified the level Slaughterhouse?",
+        choices: ["Doggie", "SpaceUK", "Zoink", "RaeveZ"],
+        answer: "Doggie"
     },
     {
-        question: "Who wrote 'Romeo and Juliet'?",
-        choices: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
-        answer: "William Shakespeare"
+        question: "Who verified the level Silent Clubstep?",
+        choices: ["Vision", "Paqoe", "Hyperbola", "Septagon"],
+        answer: "Paqoe"
     }
 ];
 
@@ -55,7 +56,24 @@ function showResult() {
     choicesElement.innerHTML = '';
     resultElement.textContent = `You scored ${score} out of ${questions.length}!`;
     submitButton.style.display = 'none';
+
+    // Create and append the retry button
+    const retryButton = document.createElement('button');
+    retryButton.textContent = 'Retry Quiz';
+    retryButton.onclick = () => {
+        // Reset score and current question
+        score = 0;
+        currentQuestion = 0;
+        // Reload the first question
+        loadQuestion();
+        // Clear the result message
+        resultElement.textContent = '';
+        // Display the submit button again
+        submitButton.style.display = 'block';
+    };
+    resultElement.appendChild(retryButton);
 }
+
 
 submitButton.addEventListener('click', loadQuestion);
 loadQuestion();
