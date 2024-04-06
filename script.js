@@ -2,154 +2,153 @@ const questions = [
     {
         category: "Geography",
         question: "What is the capital of Canada?",
-        choices: ["Toronto", "Montreal", "Ottawa", "Vancouver"],
+        choices: ["Toronto", "Ottawa", "Vancouver", "Montreal"],
         answer: "Ottawa"
     },
     {
         category: "Geography",
         question: "Which is the longest river in the world?",
-        choices: ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        choices: ["Amazon", "Mississippi", "Nile", "Yangtze"],
         answer: "Nile"
     },
     {
         category: "Geography",
         question: "What is the smallest country in the world?",
-        choices: ["Monaco", "Vatican City", "Nauru", "San Marino"],
+        choices: ["San Marino", "Nauru", "Vatican City", "Monaco"],
         answer: "Vatican City"
     },
     {
         category: "Geography",
         question: "What is the tallest building in the world?",
-        choices: ["Shanghai Tower", "Burj Khalifa", "Abraj Al-Bait Clock Tower", "One World Trade Center"],
+        choices: ["One World Trade Center", "Shanghai Tower", "Burj Khalifa", "Abraj Al-Bait Clock Tower"],
         answer: "Burj Khalifa"
     },
     {
         category: "Geography",
         question: "Which continent is the least populated?",
-        choices: ["Asia", "Australia", "Antarctica", "Africa"],
+        choices: ["Asia", "Australia", "Africa", "Antarctica"],
         answer: "Antarctica"
     },
     {
         category: "Astronomy",
         question: "What is the closest star to Earth?",
-        choices: ["Proxima Centauri", "Alpha Centauri", "Sirius", "Betelgeuse"],
-        answer: "Proxima Centauri"
+        choices: ["Sirius", "Proxima Centauri", "Alpha Centauri", "Betelgeuse"],
+        answer: "Alpha Centauri"
     },
     {
         category: "Astronomy",
         question: "Which planet is known as the 'Morning Star' or 'Evening Star'?",
-        choices: ["Venus", "Mars", "Mercury", "Jupiter"],
+        choices: ["Mars", "Mercury", "Jupiter", "Venus"],
         answer: "Venus"
     },
     {
         category: "Astronomy",
         question: "What is the name of the galaxy that contains the Milky Way?",
-        choices: ["Andromeda", "Sombrero", "Whirlpool", "Pinwheel"],
+        choices: ["Whirlpool", "Andromeda", "Pinwheel", "Sombrero"],
         answer: "Andromeda"
     },
     {
         category: "Astronomy",
         question: "Which planet is known as the 'Blue Planet'?",
-        choices: ["Earth", "Neptune", "Uranus", "Saturn"],
+        choices: ["Uranus", "Neptune", "Saturn", "Earth"],
         answer: "Earth"
     },
     {
         category: "Astronomy",
         question: "What is the phenomenon where a total solar eclipse occurs and the sun's corona is visible?",
-        choices: ["Umbra", "Penumbra", "Corona", "Diamond Ring"],
+        choices: ["Diamond Ring", "Umbra", "Penumbra", "Corona"],
         answer: "Corona"
     },
     {
         category: "Literature",
         question: "Who wrote the Harry Potter series?",
-        choices: ["J.R.R. Tolkien", "J.K. Rowling", "C.S. Lewis", "Suzanne Collins"],
+        choices: ["Suzanne Collins", "C.S. Lewis", "J.R.R. Tolkien", "J.K. Rowling"],
         answer: "J.K. Rowling"
     },
     {
         category: "Literature",
         question: "Which Shakespearean play features the character Hamlet?",
-        choices: ["Macbeth", "Romeo and Juliet", "Hamlet", "Othello"],
+        choices: ["Macbeth", "Othello", "Hamlet", "Romeo and Juliet"],
         answer: "Hamlet"
     },
     {
         category: "Literature",
         question: "Who wrote '1984'?",
-        choices: ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Arthur C. Clarke"],
+        choices: ["Ray Bradbury", "Aldous Huxley", "Arthur C. Clarke", "George Orwell"],
         answer: "George Orwell"
     },
     {
         category: "Literature",
         question: "Which novel by Jane Austen begins with the line 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife'?",
-        choices: ["Emma", "Pride and Prejudice", "Sense and Sensibility", "Mansfield Park"],
+        choices: ["Mansfield Park", "Emma", "Sense and Sensibility", "Pride and Prejudice"],
         answer: "Pride and Prejudice"
     },
     {
         category: "Literature",
         question: "Who wrote 'The Great Gatsby'?",
-        choices: ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "William Faulkner"],
+        choices: ["Ernest Hemingway", "John Steinbeck", "William Faulkner", "F. Scott Fitzgerald"],
         answer: "F. Scott Fitzgerald"
     },
     {
         category: "Science",
         question: "What is the chemical symbol for sodium?",
-        choices: ["Na", "So", "Sd", "Ni"],
+        choices: ["Sd", "So", "Ni", "Na"],
         answer: "Na"
     },
     {
         category: "Science",
         question: "What is the pH value of pure water?",
-        choices: ["7", "6", "8", "9"],
+        choices: ["9", "8", "6", "7"],
         answer: "7"
     },
     {
         category: "Science",
         question: "What is the process by which plants make their own food called?",
-        choices: ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+        choices: ["Respiration", "Transpiration", "Photosynthesis", "Fermentation"],
         answer: "Photosynthesis"
     },
     {
         category: "Science",
         question: "What is the densest element?",
-        choices: ["Osmium", "Plutonium", "Gold", "Lead"],
+        choices: ["Gold", "Lead", "Osmium", "Plutonium"],
         answer: "Osmium"
     },
     {
         category: "Science",
         question: "What is the unit of electrical resistance?",
-        choices: ["Ohm", "Ampere", "Volt", "Watt"],
+        choices: ["Volt", "Ampere", "Watt", "Ohm"],
         answer: "Ohm"
     },
     {
         category: "Technology",
         question: "What does CPU stand for?",
-        choices: ["Central Processing Unit", "Computer Processor Unit", "Core Processing Unit", "Central Processor Unit"],
+        choices: ["Computer Processor Unit", "Core Processing Unit", "Central Processing Unit", "Central Processor Unit"],
         answer: "Central Processing Unit"
     },
     {
         category: "Technology",
         question: "Who founded Apple Inc.?",
-        choices: ["Steve Jobs", "Bill Gates", "Steve Wozniak", "Jeff Bezos"],
+        choices: ["Jeff Bezos", "Bill Gates", "Steve Jobs", "Steve Wozniak"],
         answer: "Steve Jobs"
     },
     {
         category: "Technology",
         question: "Which programming language was developed by Sun Microsystems in 1995?",
-        choices: ["JavaScript", "Python", "Java", "C++"],
+        choices: ["JavaScript", "Python", "C++", "Java"],
         answer: "Java"
     },
     {
         category: "Technology",
         question: "What is the full form of HTML?",
-        choices: ["Hyper Text Markup Language", "High Tech Markup Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language"],
+        choices: ["Home Tool Markup Language", "High Tech Markup Language", "Hyperlink and Text Markup Language", "Hyper Text Markup Language"],
         answer: "Hyper Text Markup Language"
     },
     {
         category: "Technology",
         question: "Who developed the World Wide Web?",
-        choices: ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
+        choices: ["Bill Gates", "Mark Zuckerberg", "Steve Jobs", "Tim Berners-Lee"],
         answer: "Tim Berners-Lee"
     }
-    
 ];
 // Function to filter questions by category
 function getQuestionsByCategory(category) {
@@ -189,16 +188,31 @@ function loadQuestion(question) {
 
 // Function to check the answer
 function checkAnswer(choice, correctAnswer) {
+    const buttons = choicesElement.querySelectorAll('button');
+    buttons.forEach(button => {
+        button.disabled = true; 
+        if (button.textContent === correctAnswer) {
+            button.classList.add('correct'); 
+        }
+        if (button.textContent === choice && choice !== correctAnswer) {
+            button.classList.add('incorrect'); 
+        }
+    });
+
     if (choice === correctAnswer) {
         score++;
     }
-    currentQuestion++;
-    if (currentQuestion < currentCategoryQuestions.length) {
-        loadQuestion(currentCategoryQuestions[currentQuestion]);
-    } else {
-        showResult();
-    }
+
+    setTimeout(() => {
+        currentQuestion++;
+        if (currentQuestion < currentCategoryQuestions.length) {
+            loadQuestion(currentCategoryQuestions[currentQuestion]);
+        } else {
+            showResult();
+        }
+    }, 2000);
 }
+
 
 // Function to show the result
 function showResult() {
@@ -227,7 +241,18 @@ function showResult() {
 // Event listener for the submit button
 submitButton.addEventListener('click', () => loadQuestion(currentCategoryQuestions[currentQuestion]));
 
-// Event listeners for radio buttons
+// Function to update the heading with selected category
+function updateHeading(category) {
+    const headingElement = document.querySelector('h1');
+    headingElement.textContent = category + " Quiz";
+}
+
+// Function to remove the categories once one is selected
+function removeCategories() {
+    const categoriesFieldset = document.getElementById('categories');
+    categoriesFieldset.remove();
+}
+
 // Event listeners for radio buttons
 const radioButtons = document.querySelectorAll('input[name="categories"]');
 radioButtons.forEach(radioButton => {
@@ -237,6 +262,12 @@ radioButtons.forEach(radioButton => {
         currentQuestion = 0;
         score = 0;
         loadQuestion(currentCategoryQuestions[currentQuestion]);
+        
+        // Call the function to update the heading
+        updateHeading(selectedCategory);
+        
+        // Call the function to remove the categories
+        removeCategories();
         
         // Remove the result message and retry button
         resultElement.textContent = '';
