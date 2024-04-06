@@ -170,6 +170,9 @@ const questionElement = document.getElementById('question');
 const choicesElement = document.getElementById('choices');
 const resultElement = document.getElementById('result');
 const submitButton = document.getElementById('submit');
+submitButton.remove();
+submitButton.removeEventListener('click', () => loadQuestion(currentCategoryQuestions[currentQuestion]));
+
 
 // Function to load a question
 function loadQuestion(question) {
@@ -225,6 +228,7 @@ function showResult() {
 submitButton.addEventListener('click', () => loadQuestion(currentCategoryQuestions[currentQuestion]));
 
 // Event listeners for radio buttons
+// Event listeners for radio buttons
 const radioButtons = document.querySelectorAll('input[name="categories"]');
 radioButtons.forEach(radioButton => {
     radioButton.addEventListener('change', (event) => {
@@ -233,6 +237,13 @@ radioButtons.forEach(radioButton => {
         currentQuestion = 0;
         score = 0;
         loadQuestion(currentCategoryQuestions[currentQuestion]);
+        
+        // Remove the result message and retry button
+        resultElement.textContent = '';
+        const retryButton = document.querySelector('#result button');
+        if (retryButton) {
+            retryButton.remove();
+        }
         
         // Remove the h2 element
         const h2Element = document.querySelector('#quiz h2');

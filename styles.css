@@ -1,9 +1,12 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f5fbff; 
 }
+
 
 #quiz {
     max-width: 600px;
@@ -11,10 +14,12 @@ body {
     text-align: center;
 }
 
+
 #question {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 
 #choices {
     display: flex;
@@ -22,22 +27,47 @@ body {
     align-items: center;
 }
 
-button {
+
+#choices button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff; 
+    border: 2px solid #007bff; 
+    border-radius: 5px; 
+    color: #007bff; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+
+#choices button:hover {
+    background-color: #007bff; 
+    color: #ffffff;
+}
+
+#submit {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; 
+    transition: background-color 0.3s;
 }
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
 
 #result {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
     display: flex;
-    flex-direction: column; /* Change to column layout */
-    align-items: center; /* Center horizontally */
-}
-
-#result button {
-    margin-top: 10px; /* Add some space between the "You scored" text and the retry button */
+    flex-direction: column;
+    align-items: center;
 }
