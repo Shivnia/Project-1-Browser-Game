@@ -9,7 +9,8 @@ How to Install and Run the Project
 ---
 1. Open up VSCode
 2. Use the command in the terminal NPX serve .
-3. Open the Local server following the link with ctrl + click
+3. Open the Local server following the link with ctrl + click.
+
 Alternatively you can use the link here to deploy the game.
 https://shivnia.github.io/Project-1-Browser-Game/
 How to use the project
