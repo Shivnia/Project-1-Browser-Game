@@ -7,7 +7,7 @@ Welcome to my first project! This project is a very simple quiz browser game tha
 
 How to Install and Run the Project
 ---
-The project can be started by using npx serve . in the terminal to and opening up the live server to start it or you can use the link here to deploy it. 
+The project can be started by opening up VScode, then run the command NPX serve . and starting the local host. Alternatively you can use the deploy link here to start it.
 https://shivnia.github.io/Project-1-Browser-Game/
 
 How to use the project
