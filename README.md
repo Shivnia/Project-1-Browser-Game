@@ -13,6 +13,7 @@ How to Install and Run the Project
 
 Alternatively you can use the link here to deploy the game.
 https://shivnia.github.io/Project-1-Browser-Game/
+
 How to use the project
 ---
 Once in the game select a category to begin, all questions are multiple choice. If an answer is correct the button will turn green, if it is wrong then the button will turn red and the correct answer will show. Once you are done with all of the questions you can either retry the quiz to aim for a better score or click the new category button to select a new category. 
