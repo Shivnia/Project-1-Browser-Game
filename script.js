@@ -228,15 +228,21 @@ function showResult() {
         // Reset score and current question
         score = 0;
         currentQuestion = 0;
-        // Reload the first question
-        loadQuestion(currentCategoryQuestions[currentQuestion]);
-        // Clear the result message
-        resultElement.textContent = '';
-        // Display the submit button again
-        submitButton.style.display = 'block';
+        // Reload the page
+        location.reload();
     };
     resultElement.appendChild(retryButton);
+
+    // Create and append the back to categories button
+    const backButton = document.createElement('button');
+    backButton.textContent = 'New Category';
+    backButton.onclick = () => {
+        // Reload the page
+        location.reload();
+    };
+    resultElement.appendChild(backButton);
 }
+
 
 // Event listener for the submit button
 submitButton.addEventListener('click', () => loadQuestion(currentCategoryQuestions[currentQuestion]));
